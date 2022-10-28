@@ -9,7 +9,7 @@ function gb () {
     let x = document.getElementById("firstnum").value;
     const gbresult = x / 1000;
 
-    document.getElementById('answer').innerHTML = gbresult + "gigabytes";
+    document.getElementById('answer').innerHTML = gbresult + " gigabytes";
 }
 
 function tb () {
